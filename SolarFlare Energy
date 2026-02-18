@@ -1,0 +1,42 @@
+```json
+{
+  "chain_name": "SolarFlare Energy",
+  "chain_id": 55789,
+  "symbol": "SOLAR",
+  "decimals": 18,
+  "programming_language": "Python",
+  
+  "supply": {
+    "genesis_supply": 4000000,
+    "max_supply": 21000000,
+    "circulating_supply": 4000000
+  },
+  
+  "block_details": {
+    "block_time": 10,
+    "block_reward": 12,
+    "halving_interval": 210000,
+    "halving_count": 0,
+    "current_block_reward": 12
+  },
+  
+  "consensus": {
+    "type": "Proof of Energy",
+    "validators": 21,
+    "minimum_stake": 25000
+  },
+  
+  "network": {
+    "network_type": "testnet",
+    "launch_date": "2026-02-18",
+    "rpc_url": "https://solarflare.testnet.canopy.network",
+    "explorer_url": "https://explorer.solarflare.network"
+  },
+  
+  "project_info": {
+    "creator": "Misagh95",
+    "github": "https://github.com/Misagh95",
+    "description": "Renewable energy trading platform",
+    "category": "Energy"
+  }
+}
